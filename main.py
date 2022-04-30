@@ -3,9 +3,9 @@ import sys
 from src.data import get_frames, get_predictions
 from src.predictions import kalman_prediction
 
-_INPUT_VIDEO_FILE = "data/video/reduced_mega_cut.mp4"
-_OUTPUT_VIDEO_FILE = "data/linear/output.mp4"
-_PREDICTIONS_FILE = "data/linear/reduced_mega_cut.mp4.predictions.slp"
+_INPUT_VIDEO_FILE = "input_video.mp4"
+_OUTPUT_VIDEO_FILE = "output_video.mp4"
+_PREDICTIONS_FILE = "predictions.slp"
 
 _NUM_INDIVIDUALS = 2
 _NUM_BODY_PARTS = 6
